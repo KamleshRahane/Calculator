@@ -1,0 +1,47 @@
+body{
+  background-color: orangered;
+}
+h1{
+  text-align: center;
+}.calculator {
+  width: 35%;
+  height: 340px;
+  margin: 80px auto;
+  padding: 10px;
+  background-color: aqua;
+  border: 1px solid #e60909;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.keypad{
+  color:red;
+}
+.keypad button {
+  width: 110px;
+  height: 50px;
+  margin: 2px;
+  color: red;
+  background-color: black;
+  margin: 1%;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+/* #reset{
+  width: auto;
+} */
+
+#result{
+  height: 12%;
+  width: 80%;
+  color: red;
+  background-color: black;
+  font-size: xx-large;
+}
+#eqaulsTo{
+  background-color: red;
+  color: white;
+}
